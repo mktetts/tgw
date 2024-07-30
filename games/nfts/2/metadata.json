@@ -1,0 +1,15 @@
+{
+    "name": "O Image",
+    "description": "The Modern O Image",
+    "total": 3,
+    "filenames": [
+        "thumbnail.png",
+        "original.png",
+        "o.png"
+    ],
+    "captions":[
+    	"Thumbnail",
+    	"Original",
+    	"O image"
+    ]
+}

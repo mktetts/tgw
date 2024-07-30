@@ -1,0 +1,52 @@
+[
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"internalType": "struct Message.MessageInfo",
+				"name": "message",
+				"type": "tuple"
+			}
+		],
+		"name": "crossChainMessageReceive",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "receiver",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"internalType": "struct Message.MessageInfo",
+				"name": "message",
+				"type": "tuple"
+			}
+		],
+		"name": "crossChainMessageReceiveWithAmount",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	}
+]

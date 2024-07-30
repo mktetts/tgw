@@ -1,0 +1,15 @@
+{
+    "name": "X Image",
+    "description": "The Modern X Image",
+    "total": 3,
+    "filenames": [
+        "thumbnail.png",
+        "original.png",
+        "x.png"
+    ],
+    "captions":[
+    	"Thumbnail",
+    	"Original",
+    	"X image"
+    ]
+}

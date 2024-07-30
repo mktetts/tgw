@@ -1,0 +1,1 @@
+This is the rules for TIC-TAC-TOE game.

@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.sqlite
+*.db
+*.egg
+*.egg-info
+build/
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+*.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Mypy
+.mypy_cache/
+
+# Pytest
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.hypothesis/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+staticfiles/
+media/
+
+# Flask
+instance/
+
+
+# Dependencies
+node_modules/
+
+# Build output
+build/
+
+
+# Log files
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# npm
+package-lock.json
+yarn.lock
+
+# Other
+*.tgz
+*.tar.gz
+*.swp
+*.swo
+*.swn
+*.suo
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.sqlite3
+*.coverage
+*.egg-info
+coverage/
+
+cache
+artifacts
+privatenet
+bin
+storage

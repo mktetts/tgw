@@ -1,0 +1,25 @@
+{
+    "name": "hardhat-project",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "clean": "find . -type d -name 'artifacts' -exec rm -rf {} + -o -type d -name 'cache' -exec rm -rf {} +",
+        "remix": "node node_modules/@remix-project/remixd/src/bin/remixd.js",
+        "ganache1": "npx hardhat run ./script/deploy.js --network ganache1",
+        "ganache2": "npx hardhat run ./script/deploy.js --network ganache2",
+        "gnosis": "npx hardhat run ./script/deploy.js --network gnosis",
+        "theta": "npx hardhat run ./script/deploy.js --network theta",
+        "base": "npx hardhat run ./script/deploy.js --network base",
+        "sepolia": "npx hardhat run ./script/deploy.js --network sepolia",
+        "amoy": "npx hardhat run ./script/deploy.js --network amoy",
+        "arbitrum": "npx hardhat run ./script/deploy.js --network arbitrum"
+    },
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "@openzeppelin/contracts": "^4.9.3",
+        "dotenv": "^16.4.5",
+        "hardhat": "^2.22.4"
+    },
+    "dependencies": {
+        "@remix-project/remixd": "^0.6.33"
+    }
+}

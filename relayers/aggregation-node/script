@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Set environment variables
+#!/bin/bash
+
+# Set environment variables
+
+export EOA_ACCOUNT_365=0x5a7daa58811abb3a368086f4965dd70fe20b0d78cc1ed33abb5337358aef2b37
+export EOA_ACCOUNT_80002=0x5a7daa58811abb3a368086f4965dd70fe20b0d78cc1ed33abb5337358aef2b37
+export EOA_ACCOUNT_10200=0x5a7daa58811abb3a368086f4965dd70fe20b0d78cc1ed33abb5337358aef2b37
+export EOA_ACCOUNT_84532=0x5a7daa58811abb3a368086f4965dd70fe20b0d78cc1ed33abb5337358aef2b37
+export EOA_ACCOUNT_11155111=0x5a7daa58811abb3a368086f4965dd70fe20b0d78cc1ed33abb5337358aef2b37
+export EOA_ACCOUNT_421614=0x5a7daa58811abb3a368086f4965dd70fe20b0d78cc1ed33abb5337358aef2b37
+
+
+export API_URL=https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd
+export API_KEY=CG-birj1J35bY2Xu1zPE1h7hmc1
+
+export AGGREGATION_NODE_PORT=4500
+
+export DATABASE_URL=mongodb://localhost:27017/
+export DATABASE_NAME=AGN
+
+
+npm run dev

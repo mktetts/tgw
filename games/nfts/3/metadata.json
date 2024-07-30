@@ -1,0 +1,15 @@
+{
+    "name": "Dragon Image",
+    "description": "Puppy Dragon Image",
+    "total": 3,
+    "filenames": [
+        "thumbnail.png",
+        "original.png",
+        "dragon.png"
+    ],
+    "captions":[
+    	"Thumbnail",
+    	"Original",
+    	"Dragon image"
+    ]
+}

@@ -1,0 +1,64 @@
+[
+    {
+        "chainId": "10200",
+        "chainName": "Gnosis Chiado Testnet",
+        "rpcUrl": "https://gnosis-chiado-rpc.publicnode.com/",
+        "nativeCurrency": "XDAI",
+        "explorer": "https://gnosis-chiado.blockscout.com/tx/",
+        "onChainContract": "0xAC0C8Aa0324E4d4ff1170ba4291C17684B4E7ecE",
+        "offChainContract": "0x66610Ed3C3CfD75d6e49d92AEaf258D9D2FC78DE",
+        "feesContract": "0x34072c72Fd0932F327976d55F030E9aD80799329"
+    },
+    {
+        "chainId": "365",
+        "rpcUrl": "https://eth-rpc-api-testnet.thetatoken.org/rpc",
+        "chainName": "Theta",
+        "nativeCurrency": "TFUEL",
+        "explorerUrl": "",
+        "onChainContract": "0xfCDBed330007f3ae4957C7089793CE62f63A87f9",
+        "offChainContract": "0x3504a02093096D5a6Be2B6Cf38F039613F1eFe6D",
+        "feesContract": "0x7a9F0c075DF9D6b94AD61b12BB219F12Ca9c1A68"
+    },
+    {
+        "chainId": "84532",
+        "chainName": "Base Sepolia Testnet",
+        "rpcUrl": "https://base-sepolia.g.alchemy.com/v2/oIzfVcIOcGUUBQpOXlyyVDI6nifiEQvp",
+        "nativeCurrency": "ETH",
+        "explorerUrl": "",
+       "onChainContract": "0x0098b9724C595D76B032a9D5B01b5D1d7Bc34Fb3",
+        "offChainContract": "0xD9A377f073E0DF0BEC7F94Cf718bB7ff5d824A34",
+        "feesContract": "0x9D37c91A7bd18EC6f72128D0730e734a792b6377"
+    },
+    {
+        "chainId": "421614",
+        "chainName": "Arbitrum Sepolia Testnet",
+        "rpcUrl": "https://sepolia-rollup.arbitrum.io/rpc",
+        "nativeCurrency": "ETH",
+        "explorerUrl": "",
+        "onChainContract": "0xe54627cC49699B15698d4D80721d8ea61bFF992e",
+        "offChainContract": "0x600EBB34840a167F4a6ab17e32DA899687a3a79a",
+        "feesContract": "0x7Bb165B7D69485A520984EE7369d410e8f7260E2"
+    },
+    {
+        "chainId": "80002",
+        "chainName": "Polygon Amoy Testnet",
+        "rpcUrl": "https://polygon-amoy.g.alchemy.com/v2/oIzfVcIOcGUUBQpOXlyyVDI6nifiEQvp",
+        "nativeCurrency": "MATIC",
+        "explorerUrl": "",
+        "onChainContract": "0xD88Faf7A4107587d8D9859d5209ce75419482689",
+        "offChainContract": "0xC463BD08bb40D9e0a0F3c7B1c9Ad24754BAd8A23",
+        "feesContract": "0xAb7b97D145191a3360cbcd6f78f9a99C6b53C23B"
+    },
+    {
+        "chainId": "11155111",
+        "chainName": "Sepolia Testnet",
+        "rpcUrl": "https://eth-sepolia.g.alchemy.com/v2/oIzfVcIOcGUUBQpOXlyyVDI6nifiEQvp",
+        "nativeCurrency": "ETH",
+        "explorerUrl": "",
+        "onChainContract": "0xce88047d4F74e94eBB850589eb6b43505e99e8fd",
+        "offChainContract": "0x7Bb165B7D69485A520984EE7369d410e8f7260E2",
+        "feesContract": "0xe54627cC49699B15698d4D80721d8ea61bFF992e"
+    }
+    
+    
+]

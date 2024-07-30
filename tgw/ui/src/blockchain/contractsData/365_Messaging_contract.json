@@ -1,0 +1,311 @@
+{
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "uint64",
+					"name": "_targetChainId",
+					"type": "uint64"
+				},
+				{
+					"internalType": "address",
+					"name": "_receiverAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "gameId",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "address",
+					"name": "buyer",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "gamePrice",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "gasPrice",
+					"type": "uint256"
+				}
+			],
+			"name": "buyGame",
+			"outputs": [
+				{
+					"internalType": "bytes32",
+					"name": "",
+					"type": "bytes32"
+				}
+			],
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint64",
+					"name": "_targetChainId",
+					"type": "uint64"
+				},
+				{
+					"internalType": "address",
+					"name": "_receiverAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "gameId",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "uint256",
+					"name": "tokenId",
+					"type": "uint256"
+				},
+				{
+					"internalType": "address",
+					"name": "buyer",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "nftPrice",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "gasPrice",
+					"type": "uint256"
+				}
+			],
+			"name": "buyNFT",
+			"outputs": [
+				{
+					"internalType": "bytes32",
+					"name": "",
+					"type": "bytes32"
+				}
+			],
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint64",
+					"name": "_targetChainId",
+					"type": "uint64"
+				},
+				{
+					"internalType": "address",
+					"name": "_receiverAddress",
+					"type": "address"
+				},
+				{
+					"components": [
+						{
+							"internalType": "bytes32",
+							"name": "gameId",
+							"type": "bytes32"
+						},
+						{
+							"internalType": "address",
+							"name": "gameOwner",
+							"type": "address"
+						},
+						{
+							"internalType": "string",
+							"name": "gameName",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "nftName",
+							"type": "string"
+						},
+						{
+							"internalType": "string",
+							"name": "nftSymbol",
+							"type": "string"
+						},
+						{
+							"internalType": "uint256",
+							"name": "price",
+							"type": "uint256"
+						},
+						{
+							"internalType": "string",
+							"name": "gameUrl",
+							"type": "string"
+						},
+						{
+							"internalType": "bytes32",
+							"name": "gameAssets",
+							"type": "bytes32"
+						},
+						{
+							"internalType": "uint256",
+							"name": "timestamp",
+							"type": "uint256"
+						}
+					],
+					"internalType": "struct GameLibrary.Game",
+					"name": "newGame",
+					"type": "tuple"
+				},
+				{
+					"internalType": "uint256",
+					"name": "gasPrice",
+					"type": "uint256"
+				}
+			],
+			"name": "createGame",
+			"outputs": [
+				{
+					"internalType": "bytes32",
+					"name": "",
+					"type": "bytes32"
+				}
+			],
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint64",
+					"name": "_targetChainId",
+					"type": "uint64"
+				},
+				{
+					"internalType": "address",
+					"name": "_receiverAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "gameId",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "address",
+					"name": "to",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "storekey",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "uint256",
+					"name": "price",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "gasPrice",
+					"type": "uint256"
+				}
+			],
+			"name": "mintNFT",
+			"outputs": [
+				{
+					"internalType": "bytes32",
+					"name": "",
+					"type": "bytes32"
+				}
+			],
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "uint64",
+					"name": "_targetChainId",
+					"type": "uint64"
+				},
+				{
+					"internalType": "address",
+					"name": "_receiverAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "bytes32",
+					"name": "gameId",
+					"type": "bytes32"
+				},
+				{
+					"internalType": "uint256",
+					"name": "tokenId",
+					"type": "uint256"
+				},
+				{
+					"internalType": "address",
+					"name": "to",
+					"type": "address"
+				},
+				{
+					"internalType": "uint256",
+					"name": "price",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "gasPrice",
+					"type": "uint256"
+				}
+			],
+			"name": "teleportNFT",
+			"outputs": [
+				{
+					"internalType": "bytes32",
+					"name": "",
+					"type": "bytes32"
+				}
+			],
+			"stateMutability": "payable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "_onChainContract",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "_nftAddress",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "_gameAddress",
+					"type": "address"
+				}
+			],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		},
+		{
+			"inputs": [],
+			"name": "getFee",
+			"outputs": [
+				{
+					"internalType": "uint256",
+					"name": "",
+					"type": "uint256"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		}
+	]
+}
+

@@ -2,7 +2,7 @@
 
 ## Watch the Demo
 
-Check out our demo video on [YouTube](https://www.youtube.com/watch?v=VEZaPk9elX8).
+Check out our demo video on [YouTube](https://www.youtube.com/watch?v=VEZaPk9elX8). Sorry for the long video, it took time for transaction confirmation. You can see it in 2x speed or more.
 
 
 ### Problem Statement

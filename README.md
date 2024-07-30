@@ -55,6 +55,8 @@ This network architecture enhances security, scalability, and coordination in cr
 ##### Note:
 - During testing, Aggregation node and Relayer node are not running means, cross chain functions won't work, still single chain functionalities continues to work.
 - During testing, the game and nfts shown in demo video will not be shown, because, Edge storage node is running locally. So please create new game and new nft items.
+- When running Relayer node, there may be a chance of error like 'filter not found error', try to stop that and start again or, anyway it continues to work after sometimes
+
 
 #### Testnet Contract Addresses
 
